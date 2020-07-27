@@ -5,3 +5,5 @@ from django.http import HttpResponse
 def index(request):
     print("输出代码信息")
     return HttpResponse("index")
+def login(request):
+    return HttpResponse("login")
