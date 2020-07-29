@@ -12,5 +12,16 @@
     gagagaagagag <br>
     fart slut <br>
 </h1>
+
+
+
+===========================================
+
+<ul>
+    {% for good in good_list %}
+        <li>{{ good.detail |safe}}</li>
+        <li>{{ good.content |safe}}</li>
+    {% endfor %}
+</ul>
 </body>
 </html>
